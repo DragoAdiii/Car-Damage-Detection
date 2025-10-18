@@ -12,7 +12,7 @@ app.config['MAX_CONTENT_LENGTH'] = 50 * 1024 * 1024
 
 # --- MODEL PATH AND SETUP ---
 MODEL_NAME = 'yolo11n_best.pt' 
-MODEL_PATH = r'D:\VS code\Python\DL\Car Damage detection\Model_Trained\yolo11n_best.pt'
+MODEL_PATH = r'D:\BrainStorm\Project\DL\Car Damage detection\Model_Trained\yolo11n_best.pt'
 CLASS_LABELS = ['MINOR', 'MODERATE', 'SEVERE']
 
 # Load the trained model globally when the app starts
